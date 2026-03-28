@@ -2,11 +2,9 @@
 
 ## Complexidade Ciclomática
 
-A seguir está o algoritmo desenvolvido em Python que solicita dois números ao usuário, pergunta qual operação matemática deseja realizar e apresenta o resultado. Também abaixo, faço a análise do grafo de fluxo e o cálculo da complexidade ciclomática.
+A seguir está o algoritmo fiz em Python e que solicita dois números ao usuário, pergunta qual operação matemática deseja realizar e apresenta o resultado. Também abaixo, faço a análise do grafo de fluxo e o cálculo da complexidade ciclomática.
 
-## Programação
-
-O código implementado foi o seguinte:
+## Algoritmo
 
 ```python
 def main():
@@ -39,7 +37,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## Grafo de Fluxo
+## Grafo de Fluxo (Usei o GPT pra gerar o Diagrama Mermaid com base no algoritmo)
 
 ```mermaid
 flowchart TD
@@ -91,6 +89,6 @@ Assim:
 
 **M = 5 + 1 = 6**
 
-## Conclusão
+## Resposta final
 
-Concluo que a complexidade ciclomática do algoritmo é **6**, pois existem seis caminhos independentes possíveis na execução. O programa atende ao que foi solicitado, realizando soma, subtração, multiplicação e divisão, além de tratar os casos de operação inválida e divisão por zero.
+Assim, concluímos que a complexidade ciclomática do algoritmo é **6**, já que existem seis caminhos independentes possíveis na execução.
